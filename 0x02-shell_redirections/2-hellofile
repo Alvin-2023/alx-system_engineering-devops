@@ -1,0 +1,3 @@
+#Show the contents of /etc/passwd
+
+cd /etc | less passwd > got-less-stuff | less got-less-stuff
