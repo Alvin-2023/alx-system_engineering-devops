@@ -1,0 +1,5 @@
+# Show the contents of two files in one command
+
+less /etc/passwd > got-passwd-info | less got-passwd-info > having-passwd
+less/etc/hosts >> having-passwd | less having-passwd
+\n
