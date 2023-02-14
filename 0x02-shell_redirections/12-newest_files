@@ -1,0 +1,3 @@
+# Script thatprints the 1o newest files in a folder
+
+ls -t
