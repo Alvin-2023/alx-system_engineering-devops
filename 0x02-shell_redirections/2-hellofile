@@ -1,3 +1,4 @@
 #Show the contents of /etc/passwd
 
-cd /etc | less passwd > got-less-stuff | less got-less-stuff
+less /etc/passwd > got-passwd-stuff | less got-passwd-stuff
+\n
