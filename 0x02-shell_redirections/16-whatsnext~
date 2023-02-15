@@ -1,6 +1,0 @@
-#Prints targeted lines plus 3 orher lines
-
-
-echo " ";
-grep "root" /etc/passwd > got-it | tail -n 3 >> got-it | cat got-it;
-echo " ";

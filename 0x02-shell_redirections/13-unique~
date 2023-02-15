@@ -1,3 +1,0 @@
-#This script sorts unique inputs
-
-cat <file_name> | sort | uniq -u

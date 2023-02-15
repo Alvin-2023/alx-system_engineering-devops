@@ -1,5 +1,0 @@
-#Script counts the word lines containing bin
-
-echo "";
-wc -l /etc/passwd;
-echo ""

@@ -1,4 +1,0 @@
-#Find files containing root
-
-grep -nr "root" /etc/passwd
-\n
