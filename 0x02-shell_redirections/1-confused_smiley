@@ -1,3 +1,4 @@
+#! /bin/bash
 # Shows a confused smiley face
 
 echo "(Ôo)"

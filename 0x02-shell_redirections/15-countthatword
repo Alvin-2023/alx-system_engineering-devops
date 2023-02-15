@@ -1,3 +1,4 @@
+#! /bin/bash
 #Script counts the word lines containing bin
 
 echo "";

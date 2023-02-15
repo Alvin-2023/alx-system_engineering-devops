@@ -1,3 +1,4 @@
+#! /bin/bash
 #Find files containing root
 
 grep -nr "root" /etc/passwd ; echo "\n"

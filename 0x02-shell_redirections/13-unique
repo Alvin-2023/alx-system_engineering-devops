@@ -1,3 +1,4 @@
+#! /bin/bash
 #This script sorts unique
 
 sort < got-it | uniq -u

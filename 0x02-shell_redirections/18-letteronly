@@ -1,0 +1,6 @@
+#! /bin/bash
+# Only prints words that start with a letter
+
+#! /bin/bash
+
+grep -i [A-Z]  /etc/ssh/sshd_config
