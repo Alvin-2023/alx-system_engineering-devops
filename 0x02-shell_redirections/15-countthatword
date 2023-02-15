@@ -1,0 +1,5 @@
+#Script counts the word lines containing bin
+
+echo "";
+find . -name "bin" | wc -l /etc/passwd;
+echo ""
