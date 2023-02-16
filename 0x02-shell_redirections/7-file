@@ -1,4 +1,2 @@
-#! /bin/bash
-# This script prints out a file with a particular name
-
+#!/bin/bash
 echo "Best School" > \\\*\\\\\'\"Best \School\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)

@@ -1,4 +1,2 @@
-#! /bin/bash
-#Print the last two lines of a file /etc/passwd
-
+#!/bin/bash
 cat /etc/passwd | tail -n 10

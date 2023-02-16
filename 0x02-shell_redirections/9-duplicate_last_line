@@ -1,5 +1,2 @@
-
-# duplicates the last line of the file iacta
-
-cat iacta | tail -n 1;
-echo " ";
+#!/bin/bash
+cat iacta | tail -n 1; echo " ";

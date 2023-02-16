@@ -1,4 +1,2 @@
-#! /bin/bash
-# This script shows all users and directories
-
+#!/bin/bash
 cat /etc/passwd

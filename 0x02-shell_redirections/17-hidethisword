@@ -1,4 +1,2 @@
-#! /bin/bash
-# Script prints only unique lines
-
+#!/bin/bash
 grep -i -v bin /etc/passwd;
