@@ -1,2 +1,2 @@
-#! /bin/bash
-less /etc/passwd > got-passwd-info | less got-passwd-info > having-passwd; less/etc/hosts >> having-passwd | less having-passwd
+#!/bin/bash
+cat /etc/passwd /etc/hosts
