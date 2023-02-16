@@ -1,5 +1,2 @@
-#! /bin/bash
-#Show the contents of /etc/passwd
-
-less /etc/passwd > got-passwd-stuff | less got-passwd-stuff
-\n
+#!/bin/bash
+cat /etc/passwd
