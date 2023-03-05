@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | sort -df | awk '{if ($0 ~ /^.$/) {print;} else if ($0 ~ /^..$/) {print; } else if ($NF ~ /^$/) {printf "%s", $0 "/, ";} else {printf "%s, ", $0}} END {print ""}'
+ls -1d . .. *[[:alnum:]]* | sed 's/\($\|[^\/]\)$/\1\//' | paste -sd, echo
